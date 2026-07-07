@@ -25,13 +25,13 @@ function PeopleSelector({ people, setPeople }) {
         <span className="ml-4 text-[13px] text-[#7AAA8A] font-instrument font-normal leading-none tracking-normal">people</span>
         <div className="ml-57.75 flex flex-col gap-6">
           <img
-            src="./src/assets/up sign.png"
+            src="./src/assets/upsign.png"
             alt=""
             className="cursor-pointer"
             onClick={()=>setPeople((prev) => prev + 1)}
           />
           <img
-            src="./src/assets/down sign.png"
+            src="./src/assets/downsign.png"
             alt=""
             className="cursor-pointer"
             onClick={()=>setPeople((prev) => Math.max(1, prev - 1))}
