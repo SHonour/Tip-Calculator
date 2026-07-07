@@ -8,7 +8,7 @@ function Amount({ bill, setBill }) {
       </p>
 
       <div className="relative">
-        <img src={dollarsign} alt="" className="absolute top-6 left-3.75 font-gabriela"/>
+        <img src={dollarsign} alt="" className="absolute top-6.25 left-3.75 font-gabriela"/>
         <input
           type="text"
           className="w-94.75 h-16.25 rounded-[13px] border-none bg-[#1E3D2C] mt-1.25 pl-10 text-[21px] text-[#FFFFFF]"
